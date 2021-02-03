@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+ 
+}
+
+.messageResults div p{
+    width: 80%;
+    margin: 30px auto;
+    background:  rgb(245,245,245);
+    padding: 20px;
+    border-bottom:  3px solid lightgray;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.header h1{
+    text-align: center;
+    text-decoration: black;
+}
+.header h2{
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: black;
+    opacity: 0.3;
+    
+}
+.btn{
+    width: 20%;
+    margin: 30px auto;
+    padding: 10px 5px;
+    background:  #F0F2F5;
+
+    border-radius: 50px;
+}
+.btn:hover{
+  background: #D8DADF;
+}
